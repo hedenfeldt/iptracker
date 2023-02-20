@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { getIpData } from '../../lib/functions';
 import Arrow from "../assets/icon-arrow.svg";
-import './IpTracker.css'
+import './Iptracker.css'
 
 export default function IpTracker({ipData, setIpData}) {
     const [ipAddress, setIpAddress] = useState("")
